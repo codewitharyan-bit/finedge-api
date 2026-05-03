@@ -101,14 +101,9 @@ __tests__/
 **Core Features:**
 - ✅ Stateless JWT authentication
 - ✅ Access & Refresh token system
-- ✅ Automatic token refresh
 - ✅ HTTP-only secure cookies
-- ✅ Token expiry management
-- ✅ User session tracking
 
 **Files Added:**
-- `src/services/sessionService.js` - JWT session management
-- `src/middlewares/enhancedAuthMiddleware.js` - Enhanced auth middleware
 - `jest.config.js` - Jest configuration
 - `jest.setup.js` - Test environment setup
 

@@ -8,8 +8,7 @@ A financial tracking API built with Node.js, Express, and MongoDB. Manage transa
 - **Transaction Management**: Create, read, update, delete transactions
 - **Smart Filtering**: Filter by category, date range
 - **Financial Insights**: Transaction summaries, trends, and insights
-- **Session Management**: Automatic token refresh, HTTP-only cookies
-- **Fully Tested**: 21 passing tests covering core functionality
+- **Fully Tested**: 15 passing tests covering core functionality
 
 ## Prerequisites
 
@@ -87,13 +86,12 @@ npm run test:watch    # Run tests in watch mode
 npm test -- --coverage # Generate coverage report
 ```
 
-**Status:** ✅ **21/21 tests passing**
+**Status:** ✅ **15/15 tests passing**
 
 | Suite | Tests |
 |-------|-------|
 | User Authentication | 6 |
 | Transaction CRUD | 9 |
-| JWT Session | 6 |
 
 ## JWT Authentication
 
